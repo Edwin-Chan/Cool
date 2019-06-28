@@ -1,0 +1,1080 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1> Color Palette</h1>
+<h2>Material Design</h2>
+
+<!--Red -->
+<h3> Red </h3>
+  <div class="column" style="background-color:#FFEBEE;">
+    <h2>Red 50</h2>
+    <p>#FFEBEE</p>
+    <p>rgb(255, 235, 238)</p>
+  </div>
+  <div class="column" style="background-color:#FFCDD2;">
+    <h2>Red 100 </h2>
+    <p>#FFCDD2</p>
+  </div>
+  <div class="column" style="background-color:#EF9A9A;">
+    <h2>Red 200</h2>
+    <p>#EF9A9A</p>
+  </div>
+   <div class="column" style="background-color:#E57373;">
+    <h2>Red 300</h2>
+    <p>#E57373</p>
+  </div>
+   <div class="column" style="background-color:#EF5350;">
+    <h2>Red 400</h2>
+    <p>#EF5350</p>
+  </div>
+   <div class="column" style="background-color:#F44336;">
+    <h2>Red 500</h2>
+    <p>#F44336</p>
+  </div>
+  <div class="column" style="background-color:#E53935;">
+    <h2>Red 600</h2>
+    <p>#E53935</p>
+  </div>
+  <div class="column" style="background-color:#D32F2F;">
+    <h2>Red 700</h2>
+    <p>#D32F2F</p>
+  </div>
+  <div class="column" style="background-color:#C62828;">
+    <h2>Red 800</h2>
+    <p>#C62828</p>
+  </div>
+  <div class="column" style="background-color:#B71C1C;">
+    <h2>Red 900</h2>
+    <p>#B71C1C</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Red</h3>
+   <div class="column" style="background-color:#FF8A80;">
+    <h2>Red A100</h2>
+    <p>#FF8A80</p>
+  </div>
+  <div class="column" style="background-color:#FF5252;">
+    <h2>Red A200</h2>
+    <p>#FF5252</p>
+  </div>
+  <div class="column" style="background-color:#FF1744;">
+    <h2>Red A400</h2>
+    <p>#FF1744</p>
+  </div>
+  <div class="column" style="background-color:#D50000;">
+    <h2>Red A700</h2>
+    <p>#D50000</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+  <!-- Pink -->
+  <h3> Pink </h3>
+  <div class="column" style="background-color:#FCE4EC;">
+    <h2>Pink 50</h2>
+    <p>#FCE4EC</p>
+  </div>
+  <div class="column" style="background-color:#F8BBD0;">
+    <h2>Pink 100 </h2>
+    <p>#F8BBD0</p>
+  </div>
+  <div class="column" style="background-color:#F48FB1;">
+    <h2>Pink 200</h2>
+    <p>#F48FB1</p>
+  </div>
+   <div class="column" style="background-color:#F06292;">
+    <h2>Pink 300</h2>
+    <p>#F06292</p>
+  </div>
+   <div class="column" style="background-color:#EC407A;">
+    <h2>Pink 400</h2>
+    <p>#EC407A</p>
+  </div>
+   <div class="column" style="background-color:#E91E63;">
+    <h2>Pink 500</h2>
+    <p>#E91E63</p>
+  </div>
+  <div class="column" style="background-color:#D81B60;">
+    <h2>Pink 600</h2>
+    <p>#D81B60</p>
+  </div>
+  <div class="column" style="background-color:#C2185B;">
+    <h2>Pink 700</h2>
+    <p>#C2185B</p>
+  </div>
+  <div class="column" style="background-color:#AD1457;">
+    <h2>Pink 800</h2>
+    <p>#AD1457</p>
+  </div>
+  <div class="column" style="background-color:#880E4F;">
+    <h2>Pink 900</h2>
+    <p>#880E4F</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Pink</h3>
+   <div class="column" style="background-color:#FF80AB;">
+    <h2>Pink A100</h2>
+    <p>#FF80AB</p>
+  </div>
+  <div class="column" style="background-color:#FF4081;">
+    <h2>Pink A200</h2>
+    <p>#FF4081</p>
+  </div>
+  <div class="column" style="background-color:#F50057;">
+    <h2>Pink A400</h2>
+    <p>#F50057</p>
+  </div>
+  <div class="column" style="background-color:#C51162;">
+    <h2>Pink A700</h2>
+    <p>#C51162</p>
+  </div>
+   <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Purple -->
+  <h3> Purple </h3>
+  <div class="column" style="background-color:#F3E5F5;">
+    <h2>Purple 50</h2>
+    <p>#F3E5F5</p>
+  </div>
+  <div class="column" style="background-color:#E1BEE7;">
+    <h2>Purple 100 </h2>
+    <p>#E1BEE7</p>
+  </div>
+  <div class="column" style="background-color:#CE93D8;">
+    <h2>Purple 200</h2>
+    <p>#CE93D8</p>
+  </div>
+   <div class="column" style="background-color:#BA68C8;">
+    <h2>Purple 300</h2>
+    <p>#BA68C8</p>
+  </div>
+   <div class="column" style="background-color:#AB47BC;">
+    <h2>Purple 400</h2>
+    <p>#AB47BC</p>
+  </div>
+   <div class="column" style="background-color:#9C27B0;">
+    <h2>Purple 500</h2>
+    <p>#9C27B0</p>
+  </div>
+  <div class="column" style="background-color:#8E24AA;">
+    <h2>Purple 600</h2>
+    <p>#8E24AA</p>
+  </div>
+  <div class="column" style="background-color:#7B1FA2;">
+    <h2>Purple 700</h2>
+    <p>#7B1FA2</p>
+  </div>
+  <div class="column" style="background-color:#6A1B9A;">
+    <h2>Purple 800</h2>
+    <p>#6A1B9A</p>
+  </div>
+  <div class="column" style="background-color:#4A148C;">
+    <h2>Purple 900</h2>
+    <p>#4A148C</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Purple</h3>
+   <div class="column" style="background-color:#EA80FC;">
+    <h2>Purple A100</h2>
+    <p>#EA80FC</p>
+  </div>
+  <div class="column" style="background-color:#E040FB;">
+    <h2>Purple A200</h2>
+    <p>#E040FB</p>
+  </div>
+  <div class="column" style="background-color:#D500F9;">
+    <h2>Purple A400</h2>
+    <p>#D500F9</p>
+  </div>
+  <div class="column" style="background-color:#AA00FF;">
+    <h2>Purple A700</h2>
+    <p>#AA00FF</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Deep Purple -->
+  <h3> Deep Purple </h3>
+  <div class="column" style="background-color:#EDE7F6;">
+    <h2>Deep Purple 50</h2>
+    <p>#EDE7F6</p>
+  </div>
+  <div class="column" style="background-color:#D1C4E9;">
+    <h2>Deep Purple 100 </h2>
+    <p>#D1C4E9</p>
+  </div>
+  <div class="column" style="background-color:#B39DDB;">
+    <h2>Deep Purple 200</h2>
+    <p>#B39DDB</p>
+  </div>
+   <div class="column" style="background-color:#9575CD;">
+    <h2>Deep Purple 300</h2>
+    <p>#9575CD</p>
+  </div>
+   <div class="column" style="background-color:#7E57C2;">
+    <h2>Deep Purple 400</h2>
+    <p>#7E57C2</p>
+  </div>
+   <div class="column" style="background-color:#673AB7;">
+    <h2>Deep Purple 500</h2>
+    <p>#673AB7</p>
+  </div>
+  <div class="column" style="background-color:#5E35B1;">
+    <h2>Deep Purple 600</h2>
+    <p>#5E35B1</p>
+  </div>
+  <div class="column" style="background-color:#512DA8;">
+    <h2>Deep Purple 700</h2>
+    <p>#512DA8</p>
+  </div>
+  <div class="column" style="background-color:#4527A0;">
+    <h2>Deep Purple 800</h2>
+    <p>#4527A0</p>
+  </div>
+  <div class="column" style="background-color:#311B92;">
+    <h2>Deep Purple 900</h2>
+    <p>#311B92</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Deep Purple</h3>
+   <div class="column" style="background-color:#B388FF;">
+    <h2>Deep Purple A100</h2>
+    <p>#B388FF</p>
+  </div>
+  <div class="column" style="background-color:#7C4DFF;">
+    <h2>Deep Purple A200</h2>
+    <p>#7C4DFF</p>
+  </div>
+  <div class="column" style="background-color:#651FFF;">
+    <h2>Deep Purple A400</h2>
+    <p>#651FFF</p>
+  </div>
+  <div class="column" style="background-color:#6200EA;">
+    <h2>Deep Purple A700</h2>
+    <p>#6200EA</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Indigo -->
+  <h3> Indigo </h3>
+  <div class="column" style="background-color:#E8EAF6;">
+    <h2>Indigo 50</h2>
+    <p>#E8EAF6</p>
+  </div>
+  <div class="column" style="background-color:#C5CAE9;">
+    <h2>Indigo 100 </h2>
+    <p>#C5CAE9</p>
+  </div>
+  <div class="column" style="background-color:#9FA8DA;">
+    <h2>Indigo 200</h2>
+    <p>#9FA8DA</p>
+  </div>
+   <div class="column" style="background-color:#7986CB;">
+    <h2>Indigo 300</h2>
+    <p>#7986CB</p>
+  </div>
+   <div class="column" style="background-color:#5C6BC0;">
+    <h2>Indigo 400</h2>
+    <p>#5C6BC0</p>
+  </div>
+   <div class="column" style="background-color:#3F51B5;">
+    <h2>Indigo 500</h2>
+    <p>#3F51B5</p>
+  </div>
+  <div class="column" style="background-color:#3949AB;">
+    <h2>Indigo 600</h2>
+    <p>#3949AB</p>
+  </div>
+  <div class="column" style="background-color:#303F9F;">
+    <h2>Indigo 700</h2>
+    <p>#303F9F</p>
+  </div>
+  <div class="column" style="background-color:#283593;">
+    <h2>Indigo 800</h2>
+    <p>#283593</p>
+  </div>
+  <div class="column" style="background-color:#1A237E;">
+    <h2>Indigo 900</h2>
+    <p>#1A237E</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Indigo</h3>
+   <div class="column" style="background-color:#8C9EFF;">
+    <h2>Indigo A100</h2>
+    <p>#8C9EFF</p>
+  </div>
+  <div class="column" style="background-color:#536DFE;">
+    <h2>Indigo A200</h2>
+    <p>#536DFE</p>
+  </div>
+  <div class="column" style="background-color:#3D5AFE;">
+    <h2>Indigo A400</h2>
+    <p>#3D5AFE</p>
+  </div>
+  <div class="column" style="background-color:#304FFE;">
+    <h2>Indigo A700</h2>
+    <p>#304FFE</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Blue -->
+  <h3> Blue </h3>
+  <div class="column" style="background-color:#E3F2FD;">
+    <h2>Blue 50</h2>
+    <p>#E3F2FD</p>
+  </div>
+  <div class="column" style="background-color:#BBDEFB;">
+    <h2>Blue 100 </h2>
+    <p>#BBDEFB</p>
+  </div>
+  <div class="column" style="background-color:#90CAF9;">
+    <h2>Blue 200</h2>
+    <p>#90CAF9</p>
+  </div>
+   <div class="column" style="background-color:#64B5F6;">
+    <h2>Blue 300</h2>
+    <p>#64B5F6</p>
+  </div>
+   <div class="column" style="background-color:#42A5F5;">
+    <h2>Blue 400</h2>
+    <p>#42A5F5</p>
+  </div>
+   <div class="column" style="background-color:#2196F3;">
+    <h2>Blue 500</h2>
+    <p>#2196F3</p>
+  </div>
+  <div class="column" style="background-color:#1E88E5;">
+    <h2>Blue 600</h2>
+    <p>#1E88E5</p>
+  </div>
+  <div class="column" style="background-color:#1976D2;">
+    <h2>Blue 700</h2>
+    <p>#1976D2</p>
+  </div>
+  <div class="column" style="background-color:#1565C0;">
+    <h2>Blue 800</h2>
+    <p>#1565C0</p>
+  </div>
+  <div class="column" style="background-color:#0D47A1;">
+    <h2>Blue 900</h2>
+    <p>#0D47A1</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Blue</h3>
+   <div class="column" style="background-color:#82B1FF;">
+    <h2>Blue A100</h2>
+    <p>#82B1FF</p>
+  </div>
+  <div class="column" style="background-color:#448AFF;">
+    <h2>Blue A200</h2>
+    <p>#448AFF</p>
+  </div>
+  <div class="column" style="background-color:#2979FF;">
+    <h2>Blue A400</h2>
+    <p>#2979FF</p>
+  </div>
+  <div class="column" style="background-color:#2962FF;">
+    <h2>Blue A700</h2>
+    <p>#2962FF</p>
+  </div>
+   <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Light Blue -->
+  <h3> Light Blue </h3>
+  <div class="column" style="background-color:#E1F5FE;">
+    <h2>Light Blue 50</h2>
+    <p>#E1F5FE</p>
+  </div>
+  <div class="column" style="background-color:#B3E5FC;">
+    <h2>Light Blue 100 </h2>
+    <p>#B3E5FC</p>
+  </div>
+  <div class="column" style="background-color:#81D4FA;">
+    <h2>Light Blue 200</h2>
+    <p>#81D4FA</p>
+  </div>
+   <div class="column" style="background-color:#4FC3F7;">
+    <h2>Light Blue 300</h2>
+    <p>#4FC3F7</p>
+  </div>
+   <div class="column" style="background-color:#29B6F6;">
+    <h2>Light Blue 400</h2>
+    <p>#29B6F6</p>
+  </div>
+   <div class="column" style="background-color:#03A9F4;">
+    <h2>Light Blue 500</h2>
+    <p>#03A9F4</p>
+  </div>
+  <div class="column" style="background-color:#039BE5;">
+    <h2>Light Blue 600</h2>
+    <p>#039BE5</p>
+  </div>
+  <div class="column" style="background-color:#0288D1;">
+    <h2>Light Blue 700</h2>
+    <p>#0288D1</p>
+  </div>
+  <div class="column" style="background-color:#0277BD;">
+    <h2>Light Blue 800</h2>
+    <p>#0277BD</p>
+  </div>
+  <div class="column" style="background-color:#01579B;">
+    <h2>Light Blue 900</h2>
+    <p>#01579B</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Light Blue</h3>
+   <div class="column" style="background-color:#80D8FF;">
+    <h2>Light Blue A100</h2>
+    <p>#80D8FF</p>
+  </div>
+  <div class="column" style="background-color:#40C4FF;">
+    <h2>Light Blue A200</h2>
+    <p>#40C4FF</p>
+  </div>
+  <div class="column" style="background-color:#00B0FF;">
+    <h2>Light Blue A400</h2>
+    <p>#00B0FF</p>
+  </div>
+  <div class="column" style="background-color:#0091EA;">
+    <h2>Light Blue A700</h2>
+    <p>#0091EA</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Cyan -->
+  <h3> Cyan </h3>
+  <div class="column" style="background-color:#E0F7FA;">
+    <h2>Cyan 50</h2>
+    <p>#E0F7FA</p>
+  </div>
+  <div class="column" style="background-color:#B2EBF2;">
+    <h2>Cyan 100 </h2>
+    <p>#B2EBF2</p>
+  </div>
+  <div class="column" style="background-color:#80DEEA;">
+    <h2>Cyan 200</h2>
+    <p>#80DEEA</p>
+  </div>
+   <div class="column" style="background-color:#4DD0E1;">
+    <h2>Cyan 300</h2>
+    <p>#4DD0E1</p>
+  </div>
+   <div class="column" style="background-color:#26C6DA;">
+    <h2>Cyan 400</h2>
+    <p>#26C6DA</p>
+  </div>
+   <div class="column" style="background-color:#00BCD4;">
+    <h2>Cyan 500</h2>
+    <p>#00BCD4</p>
+  </div>
+  <div class="column" style="background-color:#00ACC1;">
+    <h2>Cyan 600</h2>
+    <p>#00ACC1</p>
+  </div>
+  <div class="column" style="background-color:#0097A7;">
+    <h2>Cyan 700</h2>
+    <p>#0097A7</p>
+  </div>
+  <div class="column" style="background-color:#00838F;">
+    <h2>Cyan 800</h2>
+    <p>#00838F</p>
+  </div>
+  <div class="column" style="background-color:#006064;">
+    <h2>Cyan 900</h2>
+    <p>#006064</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Cyan</h3>
+   <div class="column" style="background-color:#84FFFF;">
+    <h2>Cyan A100</h2>
+    <p>#84FFFF</p>
+  </div>
+  <div class="column" style="background-color:#18FFFF;">
+    <h2>Cyan A200</h2>
+    <p>#18FFFF</p>
+  </div>
+  <div class="column" style="background-color:#00E5FF;">
+    <h2>Cyan A400</h2>
+    <p>#00E5FF</p>
+  </div>
+  <div class="column" style="background-color:#00B8D4;">
+    <h2>Cyan A700</h2>
+    <p>#00B8D4</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Teal -->
+  <h3> Teal </h3>
+  <div class="column" style="background-color:#E0F2F1;">
+    <h2>Teal 50</h2>
+    <p>#E0F2F1</p>
+  </div>
+  <div class="column" style="background-color:#B2DFDB;">
+    <h2>Teal 100 </h2>
+    <p>#B2DFDB</p>
+  </div>
+  <div class="column" style="background-color:#80CBC4;">
+    <h2>Teal 200</h2>
+    <p>#80CBC4</p>
+  </div>
+   <div class="column" style="background-color:#4DB6AC;">
+    <h2>Teal 300</h2>
+    <p>#4DB6AC</p>
+  </div>
+   <div class="column" style="background-color:#26A69A;">
+    <h2>Teal 400</h2>
+    <p>#26A69A</p>
+  </div>
+   <div class="column" style="background-color:#009688;">
+    <h2>Teal 500</h2>
+    <p>#009688</p>
+  </div>
+  <div class="column" style="background-color:#00897B;">
+    <h2>Teal 600</h2>
+    <p>#00897B</p>
+  </div>
+  <div class="column" style="background-color:#00796B;">
+    <h2>Teal 700</h2>
+    <p>#00796B</p>
+  </div>
+  <div class="column" style="background-color:#00695C;">
+    <h2>Teal 800</h2>
+    <p>#00695C</p>
+  </div>
+  <div class="column" style="background-color:#004D40;">
+    <h2>Teal 900</h2>
+    <p>#004D40</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Teal</h3>
+   <div class="column" style="background-color:#A7FFEB;">
+    <h2>Teal A100</h2>
+    <p>#A7FFEB</p>
+  </div>
+  <div class="column" style="background-color:#64FFDA;">
+    <h2>Teal A200</h2>
+    <p>#64FFDA</p>
+  </div>
+  <div class="column" style="background-color:#1DE9B6;">
+    <h2>Teal A400</h2>
+    <p>#1DE9B6</p>
+  </div>
+  <div class="column" style="background-color:#00BFA5;">
+    <h2>Teal A700</h2>
+    <p>#00BFA5</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Green -->
+  <h3> Green </h3>
+  <div class="column" style="background-color:#E8F5E9;">
+    <h2>Green 50</h2>
+    <p>#E8F5E9</p>
+  </div>
+  <div class="column" style="background-color:#C8E6C9;">
+    <h2>Green 100 </h2>
+    <p>#C8E6C9</p>
+  </div>
+  <div class="column" style="background-color:#A5D6A7;">
+    <h2>Green 200</h2>
+    <p>#A5D6A7</p>
+  </div>
+   <div class="column" style="background-color:#81C784;">
+    <h2>Green 300</h2>
+    <p>#81C784</p>
+  </div>
+   <div class="column" style="background-color:#66BB6A;">
+    <h2>Green 400</h2>
+    <p>#66BB6A</p>
+  </div>
+   <div class="column" style="background-color:#4CAF50;">
+    <h2>Green 500</h2>
+    <p>#4CAF50</p>
+  </div>
+  <div class="column" style="background-color:#43A047;">
+    <h2>Green 600</h2>
+    <p>#43A047</p>
+  </div>
+  <div class="column" style="background-color:#388E3C;">
+    <h2>Green 700</h2>
+    <p>#388E3C</p>
+  </div>
+  <div class="column" style="background-color:#2E7D32;">
+    <h2>Green 800</h2>
+    <p>#2E7D32</p>
+  </div>
+  <div class="column" style="background-color:#1B5E20;">
+    <h2>Green 900</h2>
+    <p>#1B5E20</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Green</h3>
+   <div class="column" style="background-color:#B9F6CA;">
+    <h2>Green A100</h2>
+    <p>#B9F6CA</p>
+  </div>
+  <div class="column" style="background-color:#69F0AE;">
+    <h2>Green A200</h2>
+    <p>#69F0AE</p>
+  </div>
+  <div class="column" style="background-color:#00E676;">
+    <h2>Green A400</h2>
+    <p>#00E676</p>
+  </div>
+  <div class="column" style="background-color:#00C853;">
+    <h2>Green A700</h2>
+    <p>#00C853</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Light Green -->
+  <h3> Light Green </h3>
+  <div class="column" style="background-color:#F1F8E9;">
+    <h2>Light Green 50</h2>
+    <p>#F1F8E9</p>
+  </div>
+  <div class="column" style="background-color:#DCEDC8;">
+    <h2>Light Green 100 </h2>
+    <p>#DCEDC8</p>
+  </div>
+  <div class="column" style="background-color:#C5E1A5;">
+    <h2>Light Green 200</h2>
+    <p>#C5E1A5</p>
+  </div>
+   <div class="column" style="background-color:#AED581;">
+    <h2>Light Green 300</h2>
+    <p>#AED581</p>
+  </div>
+   <div class="column" style="background-color:#9CCC65;">
+    <h2>Light Green 400</h2>
+    <p>#9CCC65</p>
+  </div>
+   <div class="column" style="background-color:#8BC34A;">
+    <h2>Light Green 500</h2>
+    <p>#8BC34A</p>
+  </div>
+  <div class="column" style="background-color:#7CB342;">
+    <h2>Light Green 600</h2>
+    <p>#7CB342</p>
+  </div>
+  <div class="column" style="background-color:#689F38;">
+    <h2>Light Green 700</h2>
+    <p>#689F38</p>
+  </div>
+  <div class="column" style="background-color:#558B2F;">
+    <h2>Light Green 800</h2>
+    <p>#558B2F</p>
+  </div>
+  <div class="column" style="background-color:#33691E;">
+    <h2>Light Green 900</h2>
+    <p>#33691E</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Light Green</h3>
+   <div class="column" style="background-color:#CCFF90;">
+    <h2>Light Green A100</h2>
+    <p>#CCFF90</p>
+  </div>
+  <div class="column" style="background-color:#B2FF59;">
+    <h2>Light Green A200</h2>
+    <p>#B2FF59</p>
+  </div>
+  <div class="column" style="background-color:#76FF03;">
+    <h2>Light Green A400</h2>
+    <p>#76FF03</p>
+  </div>
+  <div class="column" style="background-color:#64DD17;">
+    <h2>Light Green A700</h2>
+    <p>#64DD17</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Lime -->
+  <h3> Lime </h3>
+  <div class="column" style="background-color:#F9FBE7;">
+    <h2>Lime 50</h2>
+    <p>#F9FBE7</p>
+  </div>
+  <div class="column" style="background-color:#F0F4C3;">
+    <h2>Lime 100 </h2>
+    <p>#F0F4C3</p>
+  </div>
+  <div class="column" style="background-color:#E6EE9C;">
+    <h2>Lime 200</h2>
+    <p>#E6EE9C</p>
+  </div>
+   <div class="column" style="background-color:#DCE775;">
+    <h2>Lime 300</h2>
+    <p>#DCE775</p>
+  </div>
+   <div class="column" style="background-color:#D4E157;">
+    <h2>Lime 400</h2>
+    <p>#D4E157</p>
+  </div>
+   <div class="column" style="background-color:#CDDC39;">
+    <h2>Lime 500</h2>
+    <p>#CDDC39</p>
+  </div>
+  <div class="column" style="background-color:#C0CA33;">
+    <h2>Lime 600</h2>
+    <p>#C0CA33</p>
+  </div>
+  <div class="column" style="background-color:#AFB42B;">
+    <h2>Lime 700</h2>
+    <p>#AFB42B</p>
+  </div>
+  <div class="column" style="background-color:#9E9D24;">
+    <h2>Lime 800</h2>
+    <p>#9E9D24</p>
+  </div>
+  <div class="column" style="background-color:#827717;">
+    <h2>Lime 900</h2>
+    <p>#827717</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Lime</h3>
+   <div class="column" style="background-color:#F4FF81;">
+    <h2>Lime A100</h2>
+    <p>#F4FF81</p>
+  </div>
+  <div class="column" style="background-color:#EEFF41;">
+    <h2>Lime A200</h2>
+    <p>#EEFF41</p>
+  </div>
+  <div class="column" style="background-color:#C6FF00;">
+    <h2>Lime A400</h2>
+    <p>#C6FF00</p>
+  </div>
+  <div class="column" style="background-color:#AEEA00;">
+    <h2>Lime A700</h2>
+    <p>#AEEA00</p>
+  </div>
+   <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Yellow -->
+  <h3> Yellow </h3>
+  <div class="column" style="background-color:#FFFDE7;">
+    <h2>Yellow 50</h2>
+    <p>#FFFDE7</p>
+  </div>
+  <div class="column" style="background-color:#FFF9C4;">
+    <h2>Yellow 100 </h2>
+    <p>#FFF9C4</p>
+  </div>
+  <div class="column" style="background-color:#FFF59D;">
+    <h2>Yellow 200</h2>
+    <p>#FFF59D</p>
+  </div>
+   <div class="column" style="background-color:#FFF176;">
+    <h2>Yellow 300</h2>
+    <p>#FFF176</p>
+  </div>
+   <div class="column" style="background-color:#FFEE58;">
+    <h2>Yellow 400</h2>
+    <p>#FFEE58</p>
+  </div>
+   <div class="column" style="background-color:#FFEB3B;">
+    <h2>Yellow 500</h2>
+    <p>#FFEB3B</p>
+  </div>
+  <div class="column" style="background-color:#FDD835;">
+    <h2>Yellow 600</h2>
+    <p>#FDD835</p>
+  </div>
+  <div class="column" style="background-color:#FBC02D;">
+    <h2>Yellow 700</h2>
+    <p>#FBC02D</p>
+  </div>
+  <div class="column" style="background-color:#F9A825;">
+    <h2>Yellow 800</h2>
+    <p>#F9A825</p>
+  </div>
+  <div class="column" style="background-color:#F57F17;">
+    <h2>Yellow 900</h2>
+    <p>#F57F17</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Yellow</h3>
+   <div class="column" style="background-color:#FFFF8D;">
+    <h2>Yellow A100</h2>
+    <p>#FFFF8D</p>
+  </div>
+  <div class="column" style="background-color:#FFFF00;">
+    <h2>Yellow A200</h2>
+    <p>#FFFF00</p>
+  </div>
+  <div class="column" style="background-color:#FFEA00;">
+    <h2>Yellow A400</h2>
+    <p>#FFEA00</p>
+  </div>
+  <div class="column" style="background-color:#FFD600;">
+    <h2>Yellow A700</h2>
+    <p>#FFD600</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Amber -->
+  <h3> Amber </h3>
+  <div class="column" style="background-color:#FFF8E1;">
+    <h2>Amber 50</h2>
+    <p>#FFF8E1</p>
+  </div>
+  <div class="column" style="background-color:#FFECB3;">
+    <h2>Amber 100 </h2>
+    <p>#FFECB3</p>
+  </div>
+  <div class="column" style="background-color:#FFE082;">
+    <h2>Amber 200</h2>
+    <p>#FFE082</p>
+  </div>
+   <div class="column" style="background-color:#FFD54F;">
+    <h2>Amber 300</h2>
+    <p>#FFD54F</p>
+  </div>
+   <div class="column" style="background-color:#FFCA28;">
+    <h2>Amber 400</h2>
+    <p>#FFCA28</p>
+  </div>
+   <div class="column" style="background-color:#FFC107;">
+    <h2>Amber 500</h2>
+    <p>#FFC107</p>
+  </div>
+  <div class="column" style="background-color:#FFB300;">
+    <h2>Amber 600</h2>
+    <p>#FFB300</p>
+  </div>
+  <div class="column" style="background-color:#FFA000;">
+    <h2>Amber 700</h2>
+    <p>#FFA000</p>
+  </div>
+  <div class="column" style="background-color:#FF8F00;">
+    <h2>Amber 800</h2>
+    <p>#FF8F00</p>
+  </div>
+  <div class="column" style="background-color:#FF6F00;">
+    <h2>Amber 900</h2>
+    <p>#FF6F00</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Amber</h3>
+   <div class="column" style="background-color:#FFE57F;">
+    <h2>Amber A100</h2>
+    <p>#FFE57F</p>
+  </div>
+  <div class="column" style="background-color:#FFD740;">
+    <h2>Amber A200</h2>
+    <p>#FFD740</p>
+  </div>
+  <div class="column" style="background-color:#FFC400;">
+    <h2>Amber A400</h2>
+    <p>#FFC400</p>
+  </div>
+  <div class="column" style="background-color:#FFAB00;">
+    <h2>Amber A700</h2>
+    <p>#FFAB00</p>
+  </div>
+  <p> &nbsp </p>
+  <p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+
+
+  <!-- Orange -->
+  <h3> Orange </h3>
+  <div class="column" style="background-color:#FFF3E0;">
+    <h2>Orange 50</h2>
+    <p>#FFF3E0</p>
+  </div>
+  <div class="column" style="background-color:#FFE0B2;">
+    <h2>Orange 100 </h2>
+    <p>#FFE0B2</p>
+  </div>
+  <div class="column" style="background-color:#FFCC80;">
+    <h2>Orange 200</h2>
+    <p>#FFCC80</p>
+  </div>
+   <div class="column" style="background-color:#FFB74D;">
+    <h2>Orange 300</h2>
+    <p>#FFB74D</p>
+  </div>
+   <div class="column" style="background-color:#FFA726;">
+    <h2>Orange 400</h2>
+    <p>#FFA726</p>
+  </div>
+   <div class="column" style="background-color:#FF9800;">
+    <h2>Orange 500</h2>
+    <p>#FF9800</p>
+  </div>
+  <div class="column" style="background-color:#FB8C00;">
+    <h2>Orange 600</h2>
+    <p>#FB8C00</p>
+  </div>
+  <div class="column" style="background-color:#F57C00;">
+    <h2>Orange 700</h2>
+    <p>#F57C00</p>
+  </div>
+  <div class="column" style="background-color:#EF6C00;">
+    <h2>Orange 800</h2>
+    <p>#EF6C00</p>
+  </div>
+  <div class="column" style="background-color:#E65100;">
+    <h2>Orange 900</h2>
+    <p>#E65100</p>
+  </div>
+  <p> &nbsp</p>
+  <h3> Alternative Orange</h3>
+   <div class="column" style="background-color:#FFD180;">
+    <h2>Orange A100</h2>
+    <p>#FFD180</p>
+  </div>
+  <div class="column" style="background-color:#FFAB40;">
+    <h2>Orange A200</h2>
+    <p>#FFAB40</p>
+  </div>
+  <div class="column" style="background-color:#FF9100;">
+    <h2>Orange A400</h2>
+    <p>#FF9100</p>
+  </div>
+  <div class="column" style="background-color:#FF6D00;">
+    <h2>Orange A700</h2>
+    <p>#FF6D00</p>
+  </div>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+<p> &nbsp </p>
+<p> Reference:  https://material.io/design/color/#tools-for-picking-colors </p>
+</body>
+
