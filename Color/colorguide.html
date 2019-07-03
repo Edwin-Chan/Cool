@@ -9,8 +9,7 @@
 }
 a{
   font-family: 'Vollkorn', serif;
-  font-size: 12pt;
-  padding: 0pt;
+  font-size: 13pt;
 }
 ul.a {
   list-style-type: circle;
@@ -32,16 +31,15 @@ ul.a {
   outline: none;
   font-size: 15px;
 }
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
 .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+h1{
+  text-align: center;
 }
 
 
@@ -55,35 +53,95 @@ ul.a {
 </head>
 <body>
 
-<h1> Color Palette</h1>
-<h2>Material Design Color Palettes</h2>
+
+<h1>Material Design Color Palette</h1>
+<section id="materialdesigncolor">
+<!-- Brief Introduction--> 
+<h1>Major Ideas:</h1>
+<ul> 
+  <li> Hierarchical </li>
+  <li> Legible </li>
+  <li> Expressive</li>
+  <li> Consistent</li>
+  <li> Distinct </li>
+  <li> Intentional</li>
+
+</ul>
+<h2>Primary Color </h2>
+<p>
+A primary color is the color displayed most frequently across your app’s screens and components.
+
+If you don’t have a secondary color, your primary color can also be used to accent elements.
+</p>
+<h4> Dark and light primary variants </h4>
+<p>
+You can make a color theme for your app using your primary color, as well as dark and light primary variants.
+</p>
+<h4>Distinguish UI elements</h4>
+<p>
+To create contrast between UI elements, such as distinguishing a top app bar from a system bar, you can use light or dark variants of your primary color on each elements. You can also use variants to distinguish elements within a component, such different variants used on a floating action button container, and the icon within it.
+</p>
+
+<h2> Secondary Color </h2>
+<p>
+A secondary color provides more ways to accent and distinguish your product. Having a secondary color is optional, and should be applied sparingly to accent select parts of your UI.
+
+Secondary colors are best for:
+</p>
+<ul>
+<li>Floating action buttons</li>
+<li>Selection controls, like sliders and switches</li>
+<li>Highlighting selected text</li>
+<li>Progress bars</li>
+<li>Links and headlines</li>
+<li>Dark and light secondary variants</li>
+</ul>
+<p>
+Just like the primary color, your secondary color can have dark and light variants. You can make a color theme by using your primary color, secondary color, and dark and light variants of each color.
+</p>
+
+
+<h2>Alternative colors</h2>
+<p>
+The Material Design color system supports alternative colors, which are colors used as alternatives to your brand’s primary and secondary colors (they constitute additional colors to your theme). Apps can use alternative colors to establish themes that distinguish different sections.
+
+Alternative colors are best for:
+</p>
+<ul>
+<li>Apps with light and dark themes</li>
+<li>Apps with different themes in different sections</li>
+<li>Apps that exist as part of a suite of products</li>
+</ul>
+<p>
+Alternative colors should be used cautiously, because they can be challenging to implement cohesively with existing color themes.
+</p>
+
 <!-- Color Div -->
 <button class="collapsible">Color Index</button>
 <div class="content">
   <ul class="a">
 
-<li><a href="#section-red" data-smooth-scroll="true">Red</a></li><br/>
-<li><a href="#section-pink" data-smooth-scroll="true">Pink</a></li><br/>
-<li><a href="#section-purple" data-smooth-scroll="true">Purple</a></li><br/>
-<li><a href="#section-deeppurple" data-smooth-scroll="true">Deep Purple</a></li><br/>
-<li><a href="#section-indigo" data-smooth-scroll="true">Indigo</a></li><br/>
-<li><a href="#section-blue" data-smooth-scroll="true">Blue</a></li><br/>
-<li><a href="#section-lightblue" data-smooth-scroll="true">Light Blue</a></li><br/>
-<li><a href="#section-cyan" data-smooth-scroll="true">Cyan</a></li><br/>
-<li><a href="#section-teal" data-smooth-scroll="true">Teal</a></li><br/>
-<li><a href="#section-green" data-smooth-scroll="true">Green</a></li><br/>
-<li><a href="#section-lightgreen" data-smooth-scroll="true">Light Green</a></li><br/>
-<li><a href="#section-lime" data-smooth-scroll="true">Lime</a></li><br/>
-<li><a href="#section-yellow" data-smooth-scroll="true">Yellow</a></li><br/>
-<li><a href="#section-amber" data-smooth-scroll="true">Amber</a></li><br/>
-<li><a href="#section-orange" data-smooth-scroll="true">Orange</a></li><br/>
-<li><a href="#section-deeporange" data-smooth-scroll="true">Deep Orange</a></li><br/>
-<li><a href="#section-brown" data-smooth-scroll="true">Brown</a></li><br/>
-<li><a href="#section-gray" data-smooth-scroll="true">Gray</a></li><br/>
-<li><a href="#section-bluegray" data-smooth-scroll="true">Blue Gray</a></li><br/>
+<li><a href="#section-red" data-smooth-scroll="true">Red</a></li>
+<li><a href="#section-pink" data-smooth-scroll="true">Pink</a></li>
+<li><a href="#section-purple" data-smooth-scroll="true">Purple</a></li>
+<li><a href="#section-deeppurple" data-smooth-scroll="true">Deep Purple</a></li>
+<li><a href="#section-indigo" data-smooth-scroll="true">Indigo</a></li>
+<li><a href="#section-blue" data-smooth-scroll="true">Blue</a></li>
+<li><a href="#section-lightblue" data-smooth-scroll="true">Light Blue</a></li>
+<li><a href="#section-cyan" data-smooth-scroll="true">Cyan</a></li>
+<li><a href="#section-teal" data-smooth-scroll="true">Teal</a></li>
+<li><a href="#section-green" data-smooth-scroll="true">Green</a></li>
+<li><a href="#section-lightgreen" data-smooth-scroll="true">Light Green</a></li>
+<li><a href="#section-lime" data-smooth-scroll="true">Lime</a></li>
+<li><a href="#section-yellow" data-smooth-scroll="true">Yellow</a></li>
+<li><a href="#section-amber" data-smooth-scroll="true">Amber</a></li>
+<li><a href="#section-orange" data-smooth-scroll="true">Orange</a></li>
+<li><a href="#section-deeporange" data-smooth-scroll="true">Deep Orange</a></li>
+<li><a href="#section-brown" data-smooth-scroll="true">Brown</a></li>
+<li><a href="#section-gray" data-smooth-scroll="true">Gray</a></li>
+<li><a href="#section-bluegray" data-smooth-scroll="true">Blue Gray</a></li>
 </ul>
 </div>
-
 
 <!--Red -->
 <section id="section-red">
@@ -1400,16 +1458,25 @@ ul.a {
     <h2>900</h2>
     <p>#263238</p>
   </div>
+  <p> &nbsp </p>
   
-<p> &nbsp </p>
 
-<p> &nbsp </p>
-<p> &nbsp </p>
-<p> &nbsp </p>
-
-<p> &nbsp </p>
 </section>
 <p> Reference:  https://material.io/design/color/#tools-for-picking-colors </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+<p> &nbsp </p>
+
+
+
+
+<!-- web safe colors -->
+</section>
+
+<h1> Web Safe Colors </h1>
+<section id="websafecolors">
+</section>
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
