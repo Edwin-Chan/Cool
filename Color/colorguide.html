@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
 }
-
-/* Create three equal columns that floats next to each other */
+a{
+  font-family: 'Vollkorn', serif;
+  font-size: 12pt;
+  padding: 0pt;
+}
+ul.a {
+  list-style-type: circle;
+}
 .column {
   float: left;
   width: 10%;
   padding: 10px;
-  height: 150px; /* Should be removed. Only for demonstration */
+  height: 150px; 
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #555;
 }
 
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -28,82 +56,101 @@
 <body>
 
 <h1> Color Palette</h1>
-<h2>Material Design</h2>
+<h2>Material Design Color Palettes</h2>
+<!-- Color Div -->
+<button class="collapsible">Color Index</button>
+<div class="content">
+  <ul class="a">
+
+<li><a href="#section-red" data-smooth-scroll="true">Red</a></li><br/>
+<li><a href="#section-pink" data-smooth-scroll="true">Pink</a></li><br/>
+<li><a href="#section-purple" data-smooth-scroll="true">Purple</a></li><br/>
+<li><a href="#section-deeppurple" data-smooth-scroll="true">Deep Purple</a></li><br/>
+<li><a href="#section-indigo" data-smooth-scroll="true">Indigo</a></li><br/>
+<li><a href="#section-blue" data-smooth-scroll="true">Blue</a></li><br/>
+<li><a href="#section-lightblue" data-smooth-scroll="true">Light Blue</a></li><br/>
+<li><a href="#section-cyan" data-smooth-scroll="true">Cyan</a></li><br/>
+<li><a href="#section-teal" data-smooth-scroll="true">Teal</a></li><br/>
+<li><a href="#section-green" data-smooth-scroll="true">Green</a></li><br/>
+<li><a href="#section-lightgreen" data-smooth-scroll="true">Light Green</a></li><br/>
+<li><a href="#section-lime" data-smooth-scroll="true">Lime</a></li><br/>
+<li><a href="#section-yellow" data-smooth-scroll="true">Yellow</a></li><br/>
+<li><a href="#section-amber" data-smooth-scroll="true">Amber</a></li><br/>
+<li><a href="#section-orange" data-smooth-scroll="true">Orange</a></li><br/>
+<li><a href="#section-deeporange" data-smooth-scroll="true">Deep Orange</a></li><br/>
+<li><a href="#section-brown" data-smooth-scroll="true">Brown</a></li><br/>
+<li><a href="#section-gray" data-smooth-scroll="true">Gray</a></li><br/>
+<li><a href="#section-bluegray" data-smooth-scroll="true">Blue Gray</a></li><br/>
+</ul>
+</div>
+
 
 <!--Red -->
+<section id="section-red">
 <h3> Red </h3>
   <div class="column" style="background-color:#FFEBEE;">
     <h2>50</h2>
     <p>#FFEBEE</p>
-    <p>rgb(255, 235, 238)</p>
+
   </div>
   <div class="column" style="background-color:#FFCDD2;">
     <h2>100 </h2>
     <p>#FFCDD2</p>
-    <p>rgb(255, 205, 210)</p>
+
   </div>
   <div class="column" style="background-color:#EF9A9A;">
     <h2>200</h2>
     <p>#EF9A9A</p>
-    <p>rgb(239, 154, 154)</p>
+
   </div>
    <div class="column" style="background-color:#E57373;">
     <h2>300</h2>
     <p>#E57373</p>
-    <p>rgb(229, 115, 115)</p>
+
   </div>
    <div class="column" style="background-color:#EF5350;">
     <h2>400</h2>
     <p>#EF5350</p>
-    <p>rgb(239, 83, 80)</p>
-  </div>
+ </div>
    <div class="column" style="background-color:#F44336;">
     <h2>500</h2>
     <p>#F44336</p>
-    <p>rgb(244, 67, 54)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#E53935;">
     <h2>600</h2>
     <p>#E53935</p>
-    <p>rgb(229 , 57, 53)</p>
   </div>
   <div class="column" style="background-color:#D32F2F;">
     <h2>700</h2>
     <p>#D32F2F</p>
-    <p>rgb(211 , 47, 47)</p>
   </div>
   <div class="column" style="background-color:#C62828;">
     <h2>800</h2>
     <p>#C62828</p>
-    <p>rgb(198 , 40, 40)</p>
   </div>
   <div class="column" style="background-color:#B71C1C;">
     <h2>900</h2>
     <p>#B71C1C</p>
-    <p>rgb(183 , 28, 28)</p>
   </div>
   <p> &nbsp</p>
   <h3> Alternative Red</h3>
    <div class="column" style="background-color:#FF8A80;">
     <h2>A100</h2>
     <p>#FF8A80</p>
-    <p>rgb(255 ,138, 128)</p>
+
   </div>
   <div class="column" style="background-color:#FF5252;">
     <h2>A200</h2>
     <p>#FF5252</p>
-    <p>rgb(255 , 82, 82)</p>
   </div>
   <div class="column" style="background-color:#FF1744;">
     <h2>A400</h2>
     <p>#FF1744</p>
-    <p>rgb(255 , 23, 68)</p>
   </div>
   <div class="column" style="background-color:#D50000;">
     <h2>A700</h2>
     <p>#D50000</p>
-    <p>rgb(213 , 0, 0)</p>
-  </div>
+</div>
   <p> &nbsp </p>
   <p> &nbsp </p>
 
@@ -112,80 +159,72 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
+</section>
+<section id="section-pink">
   <!-- Pink -->
   <h3> Pink </h3>
   <div class="column" style="background-color:#FCE4EC;">
     <h2>50</h2>
     <p>#FCE4EC</p>
-    <p>rgb(252, 228, 236)</p>
+
   </div>
   <div class="column" style="background-color:#F8BBD0;">
     <h2>100 </h2>
     <p>#F8BBD0</p>
-    <p>rgb(248, 187, 208)</p>
+
   </div>
   <div class="column" style="background-color:#F48FB1;">
     <h2>200</h2>
     <p>#F48FB1</p>
-    <p>rgb(244, 143, 177)</p>
+
   </div>
    <div class="column" style="background-color:#F06292;">
     <h2>300</h2>
     <p>#F06292</p>
-    <p>rgb(240, 98, 146)</p>
   </div>
    <div class="column" style="background-color:#EC407A;">
     <h2>400</h2>
     <p>#EC407A</p>
-    <p>rgb(236, 64, 122)</p>
   </div>
    <div class="column" style="background-color:#E91E63;">
     <h2>500</h2>
     <p>#E91E63</p>
-    <p>rgb(233, 30, 99)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#D81B60;">
     <h2>600</h2>
     <p>#D81B60</p>
-    <p>rgb(216, 27, 96)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#C2185B;">
     <h2>700</h2>
     <p>#C2185B</p>
-    <p>rgb(194, 24, 91)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#AD1457;">
     <h2>800</h2>
     <p>#AD1457</p>
-    <p>rgb(173, 20, 87)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#880E4F;">
     <h2>900</h2>
     <p>#880E4F</p>
-    <p>rgb(136, 14, 79)</p>
-  </div>
+ </div>
   <p> &nbsp</p>
   <h3> Alternative Pink</h3>
    <div class="column" style="background-color:#FF80AB;">
     <h2>A100</h2>
     <p>#FF80AB</p>
-    <p>rgb(255, 128, 171)</p>
+
   </div>
   <div class="column" style="background-color:#FF4081;">
     <h2>A200</h2>
     <p>#FF4081</p>
-    <p>rgb(255, 64, 129)</p>
   </div>
   <div class="column" style="background-color:#F50057;">
     <h2>A400</h2>
     <p>#F50057</p>
-    <p>rgb(245, 0, 87)</p>
-  </div>
+</div>
   <div class="column" style="background-color:#C51162;">
     <h2>A700</h2>
     <p>#C51162</p>
-    <p>rgb(197, 17, 98)</p>
-  </div>
+ </div>
    <p> &nbsp </p>
   <p> &nbsp </p>
 
@@ -194,82 +233,74 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
-
+</section>
   <!-- Purple -->
+<section id="section-purple">
+
   <h3> Purple </h3>
   <div class="column" style="background-color:#F3E5F5;">
     <h2>50</h2>
     <p>#F3E5F5</p>
-    <p>rgb(243, 229, 245)</p>
+
   </div>
   <div class="column" style="background-color:#E1BEE7;">
     <h2>100 </h2>
     <p>#E1BEE7</p>
-    <p>rgb(225, 190, 231)</p>
+
   </div>
   <div class="column" style="background-color:#CE93D8;">
     <h2>200</h2>
     <p>#CE93D8</p>
-    <p>rgb(206, 147, 216)</p>
+
   </div>
    <div class="column" style="background-color:#BA68C8;">
     <h2>300</h2>
     <p>#BA68C8</p>
-    <p>rgb(186, 104, 200)</p>
+
   </div>
    <div class="column" style="background-color:#AB47BC;">
     <h2>400</h2>
     <p>#AB47BC</p>
-    <p>rgb(171, 71, 188)</p>
   </div>
    <div class="column" style="background-color:#9C27B0;">
     <h2>500</h2>
     <p>#9C27B0</p>
-    <p>rgb(156, 39, 176)</p>
   </div>
   <div class="column" style="background-color:#8E24AA;">
     <h2>600</h2>
     <p>#8E24AA</p>
-    <p>rgb(142, 36, 170)</p>
   </div>
   <div class="column" style="background-color:#7B1FA2;">
     <h2>700</h2>
     <p>#7B1FA2</p>
-    <p>rgb(123, 31, 162)</p>
   </div>
   <div class="column" style="background-color:#6A1B9A;">
     <h2>800</h2>
     <p>#6A1B9A</p>
-    <p>rgb(106, 27, 154)</p>
   </div>
   <div class="column" style="background-color:#4A148C;">
     <h2>900</h2>
     <p>#4A148C</p>
-    <p>rgb(74, 20, 140)</p>
-  </div>
+ </div>
   <p> &nbsp</p>
   <h3> Alternative Purple</h3>
    <div class="column" style="background-color:#EA80FC;">
     <h2>A100</h2>
     <p>#EA80FC</p>
-    <p>rgb(234, 128, 252)</p>
+
   </div>
   <div class="column" style="background-color:#E040FB;">
     <h2>A200</h2>
     <p>#E040FB</p>
-    <p>rgb(224, 64, 251)</p>
   </div>
   <div class="column" style="background-color:#D500F9;">
     <h2>A400</h2>
     <p>#D500F9</p>
-    <p>rgb(213, 0, 249)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#AA00FF;">
     <h2>A700</h2>
     <p>#AA00FF</p>
-    <p>rgb(170, 0, 255)</p>
-  </div>
+ </div>
   <p> &nbsp </p>
   <p> &nbsp </p>
 
@@ -279,81 +310,73 @@
 
 <p> &nbsp </p>
 
-
+</section>
   <!-- Deep Purple -->
+<section id="section-deeppurple">
   <h3> Deep Purple </h3>
   <div class="column" style="background-color:#EDE7F6;">
     <h2>50</h2>
     <p>#EDE7F6</p>
-    <p>rgb(237, 231, 246)</p>
+
   </div>
   <div class="column" style="background-color:#D1C4E9;">
     <h2>100 </h2>
     <p>#D1C4E9</p>
-    <p>rgb(209, 196, 233)</p>
+
   </div>
   <div class="column" style="background-color:#B39DDB;">
     <h2>200</h2>
     <p>#B39DDB</p>
-    <p>rgb(179, 157, 219)</p>
+
   </div>
    <div class="column" style="background-color:#9575CD;">
     <h2>300</h2>
     <p>#9575CD</p>
-    <p>rgb(149, 117, 205)</p>
+
   </div>
    <div class="column" style="background-color:#7E57C2;">
     <h2>400</h2>
     <p>#7E57C2</p>
-    <p>rgb(126, 87, 194)</p>
   </div>
    <div class="column" style="background-color:#673AB7;">
     <h2>500</h2>
     <p>#673AB7</p>
-    <p>rgb(103, 58, 183)</p>
   </div>
   <div class="column" style="background-color:#5E35B1;">
     <h2>600</h2>
     <p>#5E35B1</p>
-    <p>rgb(94, 53, 177)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#512DA8;">
     <h2>700</h2>
     <p>#512DA8</p>
-    <p>rgb(81, 45, 168)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#4527A0;">
     <h2>800</h2>
     <p>#4527A0</p>
-    <p>rgb(69, 39, 160)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#311B92;">
     <h2>900</h2>
     <p>#311B92</p>
-    <p>rgb(49, 27, 146)</p>
-  </div>
+ </div>
   <p> &nbsp</p>
   <h3> Alternative Deep Purple</h3>
    <div class="column" style="background-color:#B388FF;">
     <h2>A100</h2>
     <p>#B388FF</p>
-    <p>rgb(179, 136, 255)</p>
+
   </div>
   <div class="column" style="background-color:#7C4DFF;">
     <h2>A200</h2>
     <p>#7C4DFF</p>
-    <p>rgb(124, 77, 255)</p>
   </div>
   <div class="column" style="background-color:#651FFF;">
     <h2>A400</h2>
     <p>#651FFF</p>
-    <p>rgb(101, 31, 255)</p>
   </div>
   <div class="column" style="background-color:#6200EA;">
     <h2>A700</h2>
     <p>#6200EA</p>
-    <p>rgb(98, 0, 234)</p>
-  </div>
+</div>
   <p> &nbsp </p>
   <p> &nbsp </p>
 
@@ -362,82 +385,74 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Indigo -->
+<section id="section-indigo">
   <h3> Indigo </h3>
   <div class="column" style="background-color:#E8EAF6;">
     <h2>50</h2>
     <p>#E8EAF6</p>
-    <p>rgb(232, 234, 246)</p>
+
   </div>
   <div class="column" style="background-color:#C5CAE9;">
     <h2>100 </h2>
     <p>#C5CAE9</p>
-    <p>rgb(197, 202, 233)</p>
+
   </div>
   <div class="column" style="background-color:#9FA8DA;">
     <h2>200</h2>
     <p>#9FA8DA</p>
-    <p>rgb(159, 168, 218)</p>
+
   </div>
    <div class="column" style="background-color:#7986CB;">
     <h2>300</h2>
     <p>#7986CB</p>
-    <p>rgb(121, 134, 203)</p>
+
   </div>
    <div class="column" style="background-color:#5C6BC0;">
     <h2>400</h2>
     <p>#5C6BC0</p>
-    <p>rgb(92, 107, 192)</p>
   </div>
    <div class="column" style="background-color:#3F51B5;">
     <h2>500</h2>
     <p>#3F51B5</p>
-    <p>rgb(63, 81, 181)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#3949AB;">
     <h2>600</h2>
     <p>#3949AB</p>
-    <p>rgb(57, 73, 171)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#303F9F;">
     <h2>700</h2>
     <p>#303F9F</p>
-    <p>rgb(48, 63, 159)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#283593;">
     <h2>800</h2>
     <p>#283593</p>
-    <p>rgb(40, 53, 147)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#1A237E;">
     <h2>900</h2>
     <p>#1A237E</p>
-    <p>rgb(26, 35, 126)</p>
-  </div>
+ </div>
   <p> &nbsp</p>
   <h3> Alternative Indigo</h3>
    <div class="column" style="background-color:#8C9EFF;">
     <h2>A100</h2>
     <p>#8C9EFF</p>
-    <p>rgb(140, 158, 255)</p>
+
   </div>
   <div class="column" style="background-color:#536DFE;">
     <h2>A200</h2>
     <p>#536DFE</p>
-    <p>rgb(83, 109, 254)</p>
   </div>
   <div class="column" style="background-color:#3D5AFE;">
     <h2>A400</h2>
     <p>#3D5AFE</p>
-    <p>rgb(61, 90, 254)</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#304FFE;">
     <h2>A700</h2>
     <p>#304FFE</p>
-    <p>rgb(48, 79, 254)</p>
-  </div>
+ </div>
   <p> &nbsp </p>
   <p> &nbsp </p>
 
@@ -447,81 +462,74 @@
 
 <p> &nbsp </p>
 
+</section>
 
   <!-- Blue -->
+<section id="section-blue">
   <h3> Blue </h3>
   <div class="column" style="background-color:#E3F2FD;">
     <h2>50</h2>
     <p>#E3F2FD</p>
-    <p>rgb(227, 242, 253)</p>
+
   </div>
   <div class="column" style="background-color:#BBDEFB;">
     <h2>100 </h2>
     <p>#BBDEFB</p>
-    <p>rgb(187, 222, 251)</p>
+
   </div>
   <div class="column" style="background-color:#90CAF9;">
     <h2>200</h2>
     <p>#90CAF9</p>
-    <p>rgb(144, 202, 249)</p>
+
   </div>
    <div class="column" style="background-color:#64B5F6;">
     <h2>300</h2>
     <p>#64B5F6</p>
-    <p>rgb(100, 181, 246)</p>
+
   </div>
    <div class="column" style="background-color:#42A5F5;">
     <h2>400</h2>
     <p>#42A5F5</p>
-    <p>rgb(66, 165, 245)</p>
   </div>
    <div class="column" style="background-color:#2196F3;">
     <h2>500</h2>
     <p>#2196F3</p>
-    <p>rgb(33, 150, 243)</p>
   </div>
   <div class="column" style="background-color:#1E88E5;">
     <h2>600</h2>
     <p>#1E88E5</p>
-    <p>rgb(30, 136, 229)</p>
   </div>
   <div class="column" style="background-color:#1976D2;">
     <h2>700</h2>
     <p>#1976D2</p>
-    <p>rgb(25, 118, 210)</p>
   </div>
   <div class="column" style="background-color:#1565C0;">
     <h2>800</h2>
     <p>#1565C0</p>
-    <p>rgb(21, 101, 192)</p>
   </div>
   <div class="column" style="background-color:#0D47A1;">
     <h2>900</h2>
     <p>#0D47A1</p>
-    <p>rgb(13, 71, 161)</p>
-  </div>
+ </div>
   <p> &nbsp</p>
   <h3> Alternative Blue</h3>
    <div class="column" style="background-color:#82B1FF;">
     <h2>A100</h2>
     <p>#82B1FF</p>
-    <p>rgb(130, 177, 255)</p>
+
   </div>
   <div class="column" style="background-color:#448AFF;">
     <h2>A200</h2>
     <p>#448AFF</p>
-    <p>rgb(68, 138, 255)</p>
   </div>
   <div class="column" style="background-color:#2979FF;">
     <h2>A400</h2>
     <p>#2979FF</p>
-    <p>rgb(41, 121, 255)</p>
   </div>
   <div class="column" style="background-color:#2962FF;">
     <h2>A700</h2>
     <p>#2962FF</p>
-    <p>rgb(41, 98, 255)</p>
-  </div>
+ </div>
    <p> &nbsp </p>
   <p> &nbsp </p>
 
@@ -531,20 +539,25 @@
 
 <p> &nbsp </p>
 
+</section>
 
   <!-- Light Blue -->
+<section id="section-lightblue">
   <h3> Light Blue </h3>
   <div class="column" style="background-color:#E1F5FE;">
     <h2>50</h2>
     <p>#E1F5FE</p>
+
   </div>
   <div class="column" style="background-color:#B3E5FC;">
     <h2>100 </h2>
     <p>#B3E5FC</p>
+
   </div>
   <div class="column" style="background-color:#81D4FA;">
     <h2>200</h2>
     <p>#81D4FA</p>
+
   </div>
    <div class="column" style="background-color:#4FC3F7;">
     <h2>300</h2>
@@ -557,28 +570,29 @@
    <div class="column" style="background-color:#03A9F4;">
     <h2>500</h2>
     <p>#03A9F4</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#039BE5;">
     <h2>600</h2>
     <p>#039BE5</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#0288D1;">
     <h2>700</h2>
     <p>#0288D1</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#0277BD;">
     <h2>800</h2>
     <p>#0277BD</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#01579B;">
     <h2>900</h2>
     <p>#01579B</p>
-  </div>
+</div>
   <p> &nbsp</p>
   <h3> Alternative Light Blue</h3>
    <div class="column" style="background-color:#80D8FF;">
     <h2>A100</h2>
     <p>#80D8FF</p>
+
   </div>
   <div class="column" style="background-color:#40C4FF;">
     <h2>A200</h2>
@@ -587,11 +601,11 @@
   <div class="column" style="background-color:#00B0FF;">
     <h2>A400</h2>
     <p>#00B0FF</p>
-  </div>
+ </div>
   <div class="column" style="background-color:#0091EA;">
     <h2>A700</h2>
     <p>#0091EA</p>
-  </div>
+ </div>
   <p> &nbsp </p>
   <p> &nbsp </p>
 
@@ -601,8 +615,10 @@
 
 <p> &nbsp </p>
 
+</section>
 
   <!-- Cyan -->
+<section id="section-cyan">
   <h3> Cyan </h3>
   <div class="column" style="background-color:#E0F7FA;">
     <h2>50</h2>
@@ -671,8 +687,10 @@
 
 <p> &nbsp </p>
 
+</section>
 
   <!-- Teal -->
+<section id="section-teal">
   <h3> Teal </h3>
   <div class="column" style="background-color:#E0F2F1;">
     <h2>50</h2>
@@ -740,9 +758,10 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Green -->
+<section id="section-green">
   <h3> Green </h3>
   <div class="column" style="background-color:#E8F5E9;">
     <h2>50</h2>
@@ -810,9 +829,10 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Light Green -->
+<section id="section-lightgreen">
   <h3> Light Green </h3>
   <div class="column" style="background-color:#F1F8E9;">
     <h2>50</h2>
@@ -880,9 +900,10 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Lime -->
+<section id="section-lime">
   <h3> Lime </h3>
   <div class="column" style="background-color:#F9FBE7;">
     <h2>50</h2>
@@ -950,9 +971,10 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Yellow -->
+<section id="section-yellow">
   <h3> Yellow </h3>
   <div class="column" style="background-color:#FFFDE7;">
     <h2>50</h2>
@@ -1020,9 +1042,10 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Amber -->
+<section id="section-amber">
   <h3> Amber </h3>
   <div class="column" style="background-color:#FFF8E1;">
     <h2>50</h2>
@@ -1090,9 +1113,10 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Orange -->
+<section id="section-orange">
   <h3> Orange </h3>
   <div class="column" style="background-color:#FFF3E0;">
     <h2>50</h2>
@@ -1160,9 +1184,11 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
+</section>
 
+  <!-- Deep Orange -->
+<section id="section-deeporange">
 
-  <!-- Orange -->
   <h3> Deep Orange </h3>
   <div class="column" style="background-color:#FBE9E7;">
     <h2>50</h2>
@@ -1230,9 +1256,11 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Brown -->
+<section id="section-brown">
+
   <h3> Brown </h3>
   <div class="column" style="background-color:#EFEBE9;">
     <h2>50</h2>
@@ -1278,9 +1306,10 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
-
+</section>
 
   <!-- Gray -->
+<section id="section-gray">
   <h3> Gray </h3>
   <div class="column" style="background-color:#FAFAFA;">
     <h2>50</h2>
@@ -1326,9 +1355,10 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
+</section>
 
-
-  <!-- Gray -->
+  <!-- Blue Gray -->
+<section id="section-bluegray">
   <h3> Blue Gray </h3>
   <div class="column" style="background-color:#ECEFF1;">
     <h2>50</h2>
@@ -1378,6 +1408,23 @@
 <p> &nbsp </p>
 
 <p> &nbsp </p>
+</section>
 <p> Reference:  https://material.io/design/color/#tools-for-picking-colors </p>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 </html>
